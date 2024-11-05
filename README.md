@@ -22,7 +22,7 @@ The Road Network Tool is an Unreal Engine plugin for creating complex road layou
 4. **Generate Road Meshes**: Adjust the road width as needed and click **Create** button to create procedural road surfaces based on the spline shapes.
 5. **Enable AI Pathfinding**: In your vehicle blueprint, use the `Get Actor of Class` node, with the actor class set to `Road Actor`. Call the `Find Path Road Network` node. This will return an array of location paths from the `startLocation` to the `targetLocation`.
 # Requirements
-Unreal Engine Version: 5.0 or later.
+Unreal Engine Version: 5.4 later.
 Development Environment: Unreal Engine Editor with C++ support (optional for source code modifications).
 
 # Support
